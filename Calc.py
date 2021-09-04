@@ -11,3 +11,10 @@ def TextCalc():
     print(a)
 
 TextCalc()
+
+def CalcHash():
+    msg = input("Introduce un mensaje: ")
+    result = hash(msg)
+    print(result)
+
+CalcHash()
